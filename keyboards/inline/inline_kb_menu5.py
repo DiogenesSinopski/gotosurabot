@@ -7,7 +7,7 @@ ikb_menu5 = InlineKeyboardMarkup(row_width=2,
             InlineKeyboardButton(text='Діджитал маркетинг', callback_data='Діджитал маркетинг')
         ],
         [
-            InlineKeyboardButton(text='Діджитал облік і консалтинг', callback_data='Діджитал облік'),
+            InlineKeyboardButton(text='Діджитал облік', callback_data='Діджитал облік'),
             InlineKeyboardButton(text='Цифрова економіка', callback_data='Цифрова економіка')
         ],
         [

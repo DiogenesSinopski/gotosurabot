@@ -27,7 +27,8 @@ ikb_menu5 = InlineKeyboardMarkup(row_width=2,
             InlineKeyboardButton(text='Адміністрування …', callback_data='Бізнес')
         ],
         [
-            InlineKeyboardButton(text='Інформаційне забезпечення', callback_data='Документаційно-інформаційне')
+            InlineKeyboardButton(text='Інф_забезпечення', callback_data='Документаційно-інформаційне'),
+            InlineKeyboardButton(text='Граф_дизайн', callback_data='Граф_дизайн')
         ]
     ]
 )

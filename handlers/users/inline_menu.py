@@ -32,7 +32,7 @@ async def send_message(call: CallbackQuery):
 async def send_message(call: CallbackQuery):
     await call.message.answer('''
 вул. Нечуя-Левицького, 16
-м. Черкаси, 18028, Українаа
+м. Черкаси, 18028, Україна
 Телефон: (0472) 64-70-55
 Телефон приймальної комісії:
 (099) 105-27-71, (098) 340-10-36,

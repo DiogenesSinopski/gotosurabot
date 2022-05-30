@@ -107,6 +107,10 @@ async def menu_index(call: types.CallbackQuery):
 async def menu_index(call: types.CallbackQuery):
     await call.message.answer_photo(photo=InputFile(path_or_bytesio='media/Inf.jpg'))
 
+@dp.callback_query_handler(text='Граф_дизайн')
+async def menu_index(call: types.CallbackQuery):
+    await call.message.answer_photo(photo=InputFile(path_or_bytesio=''))
+    
 @dp.callback_query_handler(text='Фінанси1')
 async def menu_index(call: types.CallbackQuery):
     await call.message.answer_photo(photo=InputFile(path_or_bytesio='media/Fin_mag.jpg'))

@@ -7,7 +7,7 @@ ikb_menu_magistracy = InlineKeyboardMarkup(row_width=2,
             InlineKeyboardButton(text='Діджитал маркетинг', callback_data='Маркетинг_mag')
         ],
         [
-            InlineKeyboardButton(text='Діджитал облік', callback_data='Облік_mag'),
+            InlineKeyboardButton(text='Облік і оподаткування', callback_data='Облік_mag'),
             InlineKeyboardButton(text='Цифрова економіка', callback_data='Економіка_mag')
         ],
         [
